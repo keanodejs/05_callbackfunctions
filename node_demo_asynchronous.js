@@ -2,7 +2,7 @@
 
 fs = require('fs');
 
-fs.readdir('/Users/clbo/Documents/test', function(err, data) {
+fs.readdir('/Users/clbo/Documents/test/', function(err, data) {
     console.log('data:', data);
 });
 
